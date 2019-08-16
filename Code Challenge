@@ -1,0 +1,101 @@
+//Dry Run
+let fear = 0;
+const padawanName = "Roel Kendall";
+console.log(padawanName);
+
+//Force Task #1.
+let percentageFrozen = 100;
+const totalTries = 4;
+let resqued = false;
+for (let count = 0; count < 4; count++){
+  console.log("total tries:", count)
+  console.log("percentage frozen: ",percentageFrozen - (count * 25));
+}
+for(let fear; fear > 4; fear++){
+  console.log("fearLevel: ", fear);
+  console.log("Dear Jedi Counsel, sorry for being such a dissapointment.")
+}
+if(fear < 4){
+    console.log("The Brute Force is still strong with me. My fear level is", fear)
+  } else("POWER UNLIMITED POWER! The Dark Forces of Code are strong within my command line!")
+
+//Force Task #2.
+const databaseEntry = ["Faction: First Galactic Empire", "Name: Firms Piett", "Rank: Admiral"]
+const stringtroopers = 4;
+let password = 0;
+for(let i = 0; i < databaseEntry.length; i++){
+  console.log(databaseEntry[i]);
+  }
+  if(password == 50){
+    console.log("You've managed to open the door unnoticed.")
+  }
+  if(password < 50){
+        console.log("You've managed to open the door but half of the Stringtroopers have found you.");
+}
+if(password > 50){
+      console.log("You've failed to open the door");
+}
+for(stringtroopers; stringtroopers < 4; stringtroopers++){
+  fearLevel++;
+  console.log("Total stringtroopers: ", stringtroopers)
+  console.log("fearLevel: ", fearLevel);
+}
+if(fear < 4){
+    console.log("The Brute Force is still strong with me. My fear level is", fear)
+  } else("POWER UNLIMITED POWER! The Dark Forces of Code are strong within my command line!")
+
+//Force Task #3.
+const floors = 3;
+let darthHackerSensePower = 1;
+let codeForceDisguise = 3;
+for(floors; floors < 3; floors++){
+  darthHackerSensePower++;
+}
+console.log("darthHackerSensePower: ", darthHackerSensePower);
+if(darthHackerSensePower > codeForceDisguise){
+  fear = fear + (darthHackerSensePower + codeForceDisguise);
+}
+console.log("Fear: ",fear);
+if(fear < 4){
+    console.log("The Brute Force is still strong with me. My fear level is", fear)
+  } else("POWER UNLIMITED POWER! The Dark Forces of Code are strong within my command line!")
+
+//Final Force Task
+const charactersArray = [ 
+    ['â˜†','D','a','â˜†','â˜†','r'],
+    ['t','â˜†','h','â˜†','H','a'],
+    ['c','k','â˜†','e','â˜†','r'],
+    ['L','â˜†','o','o','â˜†','p'],
+    ['S','â˜†','k','y','â˜†','w'],
+    ['a','l','â˜†','k','â˜†','â˜†'],
+    ['â˜†','e','â˜†','â˜†','r','â˜†']
+];
+const starCharacter = 'ô°€â˜†';
+let wordpressEmperorDefeated = false;
+
+console.log(charactersArray);
+
+var noStar = charactersArray.filter(function(starCharacter) {
+  return starCharacter == "\n";
+});
+console.log(noStar);
+
+for(let i = 0; i < charactersArray.length; i++){
+    if(charactersArray != starCharacter){
+      //console.log(starCharacter = "\n")
+      charactersArray[i].starCharacter = "\n";
+      console.log(charactersArray);
+    }console.log("Verkeer geprogrammeerd.")
+}
+
+
+
+let message = 24;
+if(message == true && wordpressEmperorDefeated){
+  console.log("Darth Hacker fights and has defeated the Wordpress Emperor, I've succeeded in my mission.")
+}
+let task = false;
+if(task){
+  fearLevel = fearLevel + 4;
+  console.log("POWER! UNLIMITED POWER! The Dark Forces of Code are strong within my command line!")} else(console.log("Darth Hacker's message: 'You were right about me. Tell your sister... You were right!'"))
+console.log("The Galaxy is finally Wordpress free (*)! But for how long?, (*)'free' as in 'free speach', not as in 'free beer'.")
