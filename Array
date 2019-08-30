@@ -12,6 +12,8 @@ const charactersArray = [
 const starCharacter = '☆';
 let wordpressEmperorDefeated = false;
 
+Het is dus de bedoeling dat ik de sterren van de bovenste Array verwijder 
+en een nieuwe Array maak met de inhoud van de overgebleven Array.
 
 // Iterate through the charactersArray and remove all the ☆ characters.
 // Concatenate and store the remaining characters in a new message variable.
