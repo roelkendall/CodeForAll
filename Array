@@ -1,0 +1,17 @@
+Star Array
+
+const charactersArray = [
+    ['☆','D','a','☆','☆','r'],
+    ['t','☆','h','☆','H','a'],
+    ['c','k','☆','e','☆','r'],
+    ['L','☆','o','o','☆','p'],
+    ['S','☆','k','y','☆','w'],
+    ['a','l','☆','k','☆','☆'],
+    ['☆','e','☆','☆','r','☆']
+];
+const starCharacter = '☆';
+let wordpressEmperorDefeated = false;
+
+
+// Iterate through the charactersArray and remove all the ☆ characters.
+// Concatenate and store the remaining characters in a new message variable.
